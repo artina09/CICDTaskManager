@@ -1,3 +1,5 @@
+[![Pipeline CI](https://github.com/artina09/CICDTaskManager/actions/workflows/ci.yml/badge.svg)](https://github.com/artina09/CICDTaskManager/actions/workflows/ci.yml)
+
 # Task Manager CI/CD (GitHub Actions)
 
 This project is an educational example of a task manager implemented in Java 21 using Maven.
