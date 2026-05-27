@@ -25,12 +25,8 @@ jobs:
         distribution: 'temurin'
         cache: maven
 
-    # 5. STEP: Damos permisos al script de Maven (por si acaso no los tiene)
-    - name: Permisos para Maven
-      run: chmod +x mvnw
-
     # 6. STEP: Compilamos y pasamos pruebas. 
     # Usamos -B (Batch mode para logs limpios) y 'verify' para pruebas de integración
     - name: Compilar y Testear
-      run: ./mvnw -B verify
+      run: mvn -B verify
       
